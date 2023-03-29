@@ -7,7 +7,7 @@ let img4 = document.getElementsByClassName('img4');
 let img5 = document.getElementsByClassName('img5');
 // let arr=[img1,img2,img3,img4,img5];
 for (let i = 1; i <= 5; i++) {
-    let img = document.createElement('img');
+    
     img.setAttribute("src", `img${i}`);
     img.setAttribute('data-ns-img', i);
     img.onclick = function (e) {
